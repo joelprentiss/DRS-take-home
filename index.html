@@ -3,31 +3,152 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" id='css-file' href="./main.css">
     <title>Basic Template</title>
   </head>
   <body>
     <main>
     <header id="header">
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#products">Products</a>
-            <a href="#aboutUs">About Us</a>
-            <a href="#contactUs">Contact Us</a>
+        <nav class="navbar fixed-top">
+            <div class="me-auto">
+                <a href="#home">
+                <button class="navBtn">Home</button>
+                </a>
+                
+                
+                <a href="#products">
+                <button class="navBtn">Products</button>
+                </a>
+                
+                
+                <a href="#aboutUs">
+                <button class="navBtn">About Us</button>
+                </a>
+                
+                
+                <a href="#contactUs">
+                <button class="navBtn">Contact Us</button>
+                </a>
+                
+            </div>
         </nav>
     </header>
     <section id="home">
-        <h1>Home</h1>
+        <div class="heroBanner">
+        <img id="heroImg" src="./hero-image-drs.png">
+        <a href="#products">
+        <button type="button"  id="heroBtn">Shop Products</button>
+        </a>
+        </div>  
     </section>
     <section id="products">
         <h1>Products</h1>
+        <div class="row row-cols-1 row-cols-md-4">
+            <div class="col">
+              <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="https://via.placeholder.com/">
+                <div class="card-body">
+                  <h5 class="card-title">Hodor Ipsum</h5>
+                  <p class="card-text">Hodor. Hodor hodor, hodor. Hodor hodor hodor hodor hodor. Hodor. Hodor!...</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="https://via.placeholder.com/">
+                <div class="card-body">
+                  <h5 class="card-title">Hipster Ipsum</h5>
+                  <p class="card-text">Lorem ipsum dolor amet mustache knausgaard +1, blue bottle waistcoat tbh semiotics artisan synth stumptown gastropub cornhole celiac swag.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="https://via.placeholder.com/">
+                <div class="card-body">
+                  <h5 class="card-title">Zombie Ipsum</h5>
+                  <p class="card-text">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia?</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="https://via.placeholder.com/">
+                <div class="card-body">
+                  <h5 class="card-title">Bacon Ipsum</h5>
+                  <p class="card-text">Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage prosciutto chicken spare ribs salami picanha doner. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-4">
+            <div class="col">
+              <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="https://via.placeholder.com/">
+                <div class="card-body">
+                  <h5 class="card-title">Pokeipsum</h5>
+                  <p class="card-text">Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="https://via.placeholder.com/">
+                <div class="card-body">
+                  <h5 class="card-title">Baseball Ipsum</h5>
+                  <p class="card-text">Baseball ipsum dolor sit amet cellar rubber win hack tossed. Slugging catcher slide bench league, left fielder nubber. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="https://via.placeholder.com/">
+                <div class="card-body">
+                  <h5 class="card-title">Office Ipsum</h5>
+                  <p class="card-text">Those options are already baked in with this model shoot me an email clear blue water.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="https://via.placeholder.com/300" class="card-img-top" alt="https://via.placeholder.com/">
+                <div class="card-body">
+                  <h5 class="card-title">Pirate Ipsum</h5>
+                  <p class="card-text">Lookout flogging bilge rat main sheet bilge water nipper fluke to go on account heave down. </p>
+                </div>
+              </div>
+            </div>
+          </div>
     </section>  
     <section id="aboutUs">
         <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lectus sit amet est placerat in. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Sapien et ligula ullamcorper malesuada proin. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Dis parturient montes nascetur ridiculus mus mauris. Pretium nibh ipsum consequat nisl. Nam at lectus urna duis convallis convallis tellus id. Tortor vitae purus faucibus ornare. Cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque. Eget dolor morbi non arcu risus quis varius quam quisque. Elit sed vulputate mi sit amet mauris commodo quis. Quis risus sed vulputate odio. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Dignissim enim sit amet venenatis urna cursus eget nunc. Cursus in hac habitasse platea dictumst quisque. Viverra nibh cras pulvinar mattis nunc sed blandit libero. Ipsum suspendisse ultrices gravida dictum fusce ut. Ac tortor vitae purus faucibus ornare.
+
+            Tortor posuere ac ut consequat semper. Integer eget aliquet nibh praesent. At auctor urna nunc id cursus metus. Dui accumsan sit amet nulla facilisi morbi tempus iaculis urna. Est sit amet facilisis magna etiam tempor orci eu. Non nisi est sit amet facilisis magna etiam tempor orci. Feugiat vivamus at augue eget arcu dictum. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Nisl vel pretium lectus quam id. A scelerisque purus semper eget duis at tellus at urna. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Gravida neque convallis a cras semper auctor neque vitae tempus. Quis risus sed vulputate odio ut enim blandit volutpat. Aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus. Lectus urna duis convallis convallis tellus id. Elit duis tristique sollicitudin nibh sit amet. Pretium viverra suspendisse potenti nullam ac tortor vitae.</p>
     </section>
     <section id="contactUs">
         <h1>Contact Us</h1>
+        <form>
+            <fieldset>
+            <legend>Personal Message</legend>
+            <label>Name:</label><br>
+            <input placeholder="First and Last Name"><br>
+            <label>Email:</label><br>
+            <input placeholder="Valid Email Required"><br>
+            <label>Message:</label><br>
+            <textarea rows="10" cols="30">
+                Enter message here.
+            </textarea>
+            </fieldset>
+            <button onclick="alert('We`ll be in touch!')">Submit</button>
+        </form>
     </section>
+    <footer class="text-center sticky-bottom">
+        <button id="dark-mode">
+          Dark Mode
+        </button>
+      </footer>
     </main>
 
     <script src="./script.js"></script>

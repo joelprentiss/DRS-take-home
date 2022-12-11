@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+body{
+    overflow-x:hidden ;
+    background-image: linear-gradient(to bottom right, #6BA1FF, #0C5EF0);
+}
+
+main{
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    padding-bottom: 5%;
+}
+button{
+    background-color: #10A362;
+    color: black;
+    font-weight: bolder;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: grey;
+    border-color: grey;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white; 
+}
+.navBtn{
+    background-color: #10A362;
+    color: black;
+    font-weight: bolder;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.card{
+ max-height: fit-content; 
+}
+
+.col{
+    padding-bottom: 50px;
+}
+
+#heroImg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#aboutUs{
+    text-align: center;
+    width: 100%;
+}
+
+
+#heroBtn{
+    position: absolute;
+    justify-content: center;
+    bottom: -8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
