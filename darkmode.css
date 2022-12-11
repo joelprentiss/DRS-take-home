@@ -6,7 +6,9 @@
 
 body{
     overflow-x:hidden ;
-    background-color: black;
+    background: black;
+    font-family: 'Biryani';
+    
 }
 
 main{
@@ -15,6 +17,7 @@ main{
 
 h1{
     text-align: center;
+    font-family: 'Fjalla One';
 }
 
 form{
@@ -24,7 +27,7 @@ form{
 button{
     background-color: #10A362;
     color: black;
-    font-weight: bolder;
+    font-weight: bold;
     border: 2px solid white;
     cursor: pointer;
 
@@ -34,20 +37,16 @@ button:hover{
     border-color: grey;
 }
 
-footer{
-    color: white;
-    background-color: black;
-    font-weight: bolder;
+.card-title{
+font-family: 'Belleza';
+font-size:xx-large;
+color: black;
+}
+.card-text{
+font-family: 'Biryani';
+color: black;
 }
 
-
-.navBtn{
-    background-color: #10A362;
-    color: black;
-    font-weight: bolder;
-    border: 2px solid white;
-    cursor: pointer;
-}
 
 .card{
  max-height: fit-content; 
@@ -55,10 +54,6 @@ footer{
 
 .col{
     padding-bottom: 50px;
-}
-
-.card-text, .card-title{
-    color: black;
 }
 
 #heroImg{
@@ -85,3 +80,4 @@ footer{
     cursor: pointer;
     border-radius: 5px;
   }
+
