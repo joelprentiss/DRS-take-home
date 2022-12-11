@@ -7,6 +7,7 @@
 body{
     overflow-x:hidden ;
     background-image: linear-gradient(to bottom right, #6BA1FF, #0C5EF0);
+    font-family: 'Biryani'
 }
 
 main{
@@ -15,6 +16,7 @@ main{
 
 h1{
     text-align: center;
+    font-family: 'Fjalla One';
 }
 
 form{
@@ -24,7 +26,7 @@ form{
 button{
     background-color: #10A362;
     color: black;
-    font-weight: bolder;
+    font-weight: bold;
     border: 2px solid white;
     cursor: pointer;
 
@@ -34,23 +36,14 @@ button:hover{
     border-color: grey;
 }
 
-footer{
-    color: white;
-    background-color: black;
-    font-weight: bolder;
+.card-title{
+font-family: 'Belleza';
+font-size:xx-large;
+}
+.card-body{
+font-family: 'Biryani'
 }
 
-.dark-mode{
-    background-color: black;
-    color: white; 
-}
-.navBtn{
-    background-color: #10A362;
-    color: black;
-    font-weight: bolder;
-    border: 2px solid white;
-    cursor: pointer;
-}
 
 .card{
  max-height: fit-content; 
@@ -84,3 +77,4 @@ footer{
     cursor: pointer;
     border-radius: 5px;
   }
+
